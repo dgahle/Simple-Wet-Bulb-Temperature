@@ -1,14 +1,14 @@
 # Python Repository Template
 
-[![GitHub Action PyTests](https://github.com/dgahle/PythonRepositoryTemplate/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/dgahle/PythonRepositoryTemplate/actions/workflows/pytest.yml)
-[![GitHub Action Linting](https://github.com/dgahle/PythonRepositoryTemplate/actions/workflows/linting.yml/badge.svg?branch=main)](https://github.com/dgahle/PythonRepositoryTemplate/actions/workflows/linting.yml)
-[![Python Version](https://img.shields.io/badge/python->=3.9-blue)](https://www.python.org/downloads/release/python-390/)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue)](https://github.com/dgahle/PythonRepositoryTemplate/blob/main/LICENSE)
+[![GitHub Action PyTests](https://github.com/dgahle/Simple-Wet-Bulb-Temperature /actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/dgahle/Simple-Wet-Bulb-Temperature /actions/workflows/pytest.yml)
+[![GitHub Action Linting](https://github.com/dgahle/Simple-Wet-Bulb-Temperature /actions/workflows/linting.yml/badge.svg?branch=main)](https://github.com/dgahle/Simple-Wet-Bulb-Temperature /actions/workflows/linting.yml)
+[![Python Version](https://img.shields.io/badge/python->=3.11-blue)](https://www.python.org/downloads/release/python-390/)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue)](https://github.com/dgahle/Simple-Wet-Bulb-Temperature /blob/main/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
-[![GitHub issues open](https://img.shields.io/github/issues-raw/dgahle/PythonRepositoryTemplate?style=flat)](https://github.com/dgahle/PythonRepositoryTemplate/issues?q=is%3Aissue+is%3Aopen)
-[![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/dgahle/PythonRepositoryTemplate?style=flat)](https://github.com/dgahle/PythonRepositoryTemplate/issues?q=is%3Aissue+is%3Aclosed)
-[![GitHub PR closed](https://img.shields.io/github/issues-pr-closed/dgahle/PythonRepositoryTemplate)](https://github.com/dgahle/PythonRepositoryTemplate/pulls?q=is%3Apr+is%3Aclosed)
+[![GitHub issues open](https://img.shields.io/github/issues-raw/dgahle/Simple-Wet-Bulb-Temperature ?style=flat)](https://github.com/dgahle/Simple-Wet-Bulb-Temperature /issues?q=is%3Aissue+is%3Aopen)
+[![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/dgahle/Simple-Wet-Bulb-Temperature ?style=flat)](https://github.com/dgahle/Simple-Wet-Bulb-Temperature /issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub PR closed](https://img.shields.io/github/issues-pr-closed/dgahle/Simple-Wet-Bulb-Temperature )](https://github.com/dgahle/Simple-Wet-Bulb-Temperature /pulls?q=is%3Apr+is%3Aclosed)
 
 This repository provides a template structure a software development project with some python functionality that is 
 generally usefully (demonstrated in `scripts/main.py`).
@@ -25,12 +25,12 @@ functionality, ideally with test data that can be used to make tutorials and uni
 
 ## Getting Started (Build, Test, and Run)
 
-This example repo has been written in Python 3.9 and the dependencies are listed in requirements.txt.
+This example repo has been written in Python 3.11 and the dependencies are listed in requirements.txt.
 The script setup_project.sh will build the conda environment, install dependencies, and create the input/output folders 
 and the configuration file.
 The actions the of setup_project.sh are:
 1. Create virtual python environment:
-`conda create -n PythonRepositoryTemplate python=3.9 --yes`
+`conda create -n WetBulb python=3.11 --yes`
 2. Install the dependencies:
 `pip install -r requirements.txt`
 3. Setting up the repo directories:
@@ -42,7 +42,7 @@ The actions the of setup_project.sh are:
 
 Now the repository is locally set up you can run `scripts/main.py` which is a template for scripts and modules.
 To run from the console run `PYTHONPATH=. python scripts/main.py`, within the virtual environment 
-(`conda activate PythonRepositoryTemplate`).
+(`conda activate WetBulb`).
 
 ## How to Contribute
 

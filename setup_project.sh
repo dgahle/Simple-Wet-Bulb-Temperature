@@ -7,8 +7,8 @@
 
 ### Setting up the python environment
 source /c/ProgramData/Anaconda3/etc/profile.d/conda.sh
-conda create -n PythonRepositoryTemplate python=3.9 --yes
-conda activate PythonRepositoryTemplate
+conda create -n WetBulb python=3.11 --yes
+conda activate WetBulb
 pip install -r requirements.txt
 
 ### Setting up the repo directories
